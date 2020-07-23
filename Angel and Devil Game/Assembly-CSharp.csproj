@@ -64,7 +64,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Falling.cs" />
+    <Compile Include="Assets\Scripts\Hazards.cs" />
     <Compile Include="Assets\Scripts\PlatformerController.cs" />
+    <Compile Include="Assets\Scripts\Spawner.cs" />
     <None Include="Assets\[placeholder]Medieval_pixel_art_asset_FREE\pixel_snapping_README.txt" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/2019.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

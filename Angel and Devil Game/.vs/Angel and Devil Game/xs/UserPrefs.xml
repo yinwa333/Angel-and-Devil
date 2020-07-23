@@ -1,8 +1,10 @@
 ﻿<Properties StartupConfiguration="{D5D2B45C-E711-D1A1-0660-2A9DC5CBCA64}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Falling.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Spawner.cs">
     <Files>
       <File FileName="Assets/Scripts/PlatformerController.cs" Line="30" Column="30" />
-      <File FileName="Assets/Scripts/Falling.cs" Line="6" Column="16" />
+      <File FileName="Assets/Scripts/Falling.cs" Line="8" Column="11" />
+      <File FileName="Assets/Scripts/Hazards.cs" Line="13" Column="17" />
+      <File FileName="Assets/Scripts/Spawner.cs" Line="22" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +12,7 @@
           <Node name="Angel and Devil Game" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Falling.cs" selected="True" />
+                <Node name="Spawner.cs" selected="True" />
               </Node>
             </Node>
           </Node>
