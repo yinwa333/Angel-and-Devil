@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{D5D2B45C-E711-D1A1-0660-2A9DC5CBCA64}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Falling.cs">
+    <Files>
+      <File FileName="Assets/Scripts/PlatformerController.cs" Line="30" Column="30" />
+      <File FileName="Assets/Scripts/Falling.cs" Line="6" Column="16" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Angel and Devil Game" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Falling.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="05f73921-da67-4306-be60-7f680d55e284" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
