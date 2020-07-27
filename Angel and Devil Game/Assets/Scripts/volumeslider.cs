@@ -14,3 +14,4 @@ public class volumeslider : MonoBehaviour
         Debug.Log(volume);
     }
 }
+

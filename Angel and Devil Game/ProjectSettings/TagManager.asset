@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Souls
   - Hazards
+  - music
   layers:
   - Default
   - TransparentFX
