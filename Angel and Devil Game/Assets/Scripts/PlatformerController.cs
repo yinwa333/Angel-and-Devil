@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlatformerController : MonoBehaviour
 {
@@ -40,6 +41,23 @@ public class PlatformerController : MonoBehaviour
             rb.velocity = new Vector2(+speed, rb.velocity.y);
         }
         
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Souls"))
+        {
+            ScoreSystem.instance.IncreaseSouls();
+
+            //HERE IS COLLECT ANIMATION EFFECT
+
+            //GameObject soulEffect = ObjectPooling.instance.GetPooledObject("SoulEffect");
+            //soulEffect.transform.position = transform.position;
+            //soulEffect.SetActive(true);
+
+            other.gameObject.SetActive(false);
+        }
+
     }
 
 

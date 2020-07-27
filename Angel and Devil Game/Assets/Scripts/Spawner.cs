@@ -13,9 +13,6 @@ public class Spawner : MonoBehaviour
     private float[] xPositions;
     //
     [SerializeField]
-    private GameObject[] prefabs;
-    //
-    [SerializeField]
     private Wave[] wave;
 
     private float currentTime;
@@ -33,10 +30,13 @@ public class Spawner : MonoBehaviour
 
     void Update()
     {
-        currentTime -= Time.deltaTime;
-        if (currentTime <= 0)
+        if (ScoreSystem.instance.gameOver == false)
         {
-            SelectWave();
+            currentTime -= Time.deltaTime;
+            if (currentTime <= 0)
+            {
+                SelectWave();
+            }
         }
     }
 
@@ -44,8 +44,14 @@ public class Spawner : MonoBehaviour
     {
         // 0,# types of objects
         int r = Random.Range(0, 1);
-        GameObject enemyObj = Instantiate(prefabs[r], new Vector3(xPos, transform.position.y, 0), Quaternion.identity);
+        // Here we can label exactly which items with what names get referred to! (use Prefab names)
+        string enemyName = "";
+        if (r == 0) enemyName = "Soul";
+        else if (r == 1) enemyName = "Hazard";
 
+        GameObject enemy = ObjectPooling.instance.GetPooledObject(enemyName);
+        enemy.transform.position = new Vector3(xPos, transform.position.y, 0);
+        enemy.SetActive(true);
     }
 
     //Spawn Wave

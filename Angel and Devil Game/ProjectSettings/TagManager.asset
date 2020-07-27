@@ -4,8 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Ground
-  - Falling Souls
+  - Souls
   - Hazards
   layers:
   - Default
@@ -45,17 +44,20 @@ TagManager:
     uniqueID: 0
     locked: 0
   - name: Background
-    uniqueID: 3122362533
+    uniqueID: 3804712727
     locked: 0
-  - name: Platform
-    uniqueID: 152954691
+  - name: Ground
+    uniqueID: 1849658481
     locked: 0
-  - name: Falling
-    uniqueID: 4079384855
+  - name: Souls
+    uniqueID: 1262387177
+    locked: 0
+  - name: Hazards
+    uniqueID: 3752009053
     locked: 0
   - name: Player
-    uniqueID: 4155777169
+    uniqueID: 159417973
     locked: 0
   - name: GUI
-    uniqueID: 4274516145
+    uniqueID: 2097443069
     locked: 0
