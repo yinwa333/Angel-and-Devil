@@ -5,19 +5,12 @@ using UnityEngine.UI;
 
 public class DialogueTrigger : MonoBehaviour {
 
-	public Dialogue dialogue;
-	
-	//public void TriggerDialogue ()
-	//{
-	//	FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
-	//}
-	//this was here before its just a reference
+	public static Dialogue dialogue;
 
-	//general text triggr that i Wish would work
-	public void PopUpTextTrigger()
+    //general text triggr that i Wish would work
+       
+    public void PopUpTextTrigger()
 	{
-		{
-			FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
-		}
+		FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
 	}
 }

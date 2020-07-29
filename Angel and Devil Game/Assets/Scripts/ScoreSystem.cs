@@ -40,6 +40,7 @@ public class ScoreSystem : MonoBehaviour
         //THIS IS THE IF STATEMENT FOR WHEN THE PLAYER WINS
 
         //if (currentSouls)
+        
     }
 
 

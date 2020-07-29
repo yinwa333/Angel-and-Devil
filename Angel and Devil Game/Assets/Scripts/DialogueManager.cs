@@ -16,8 +16,35 @@ public class DialogueManager : MonoBehaviour {
 	void Start () {
 		sentences = new Queue<string>();
 	}
+	//attempting icon thing below
 
-	public void StartDialogue (Dialogue dialogue)
+	public SpriteRenderer iconRenderer;
+    void Update()
+    {
+		PositionIcon();
+    }
+	void PositionIcon()
+    {
+		if (iconRenderer.sprite !=null)
+        {
+			var p = new Vector3(-3, 0, 0);
+			iconRenderer.transform.localPosition = p;
+        }
+
+    }
+
+	public void SetIcon(Sprite icon)
+    {
+		if (icon == null)
+			iconRenderer.enabled = false;
+        else
+        {
+			iconRenderer.sprite = icon;
+			iconRenderer.enabled = true;
+        }
+    }
+	//end for that
+    public void StartDialogue (Dialogue dialogue)
 	{
 		//animator.SetBool("IsOpen", true);
 
