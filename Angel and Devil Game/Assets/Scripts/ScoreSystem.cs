@@ -11,7 +11,7 @@ public class ScoreSystem : MonoBehaviour
     public bool gameWin = false;
 
     [SerializeField]
-    private Text scoreText, soulsText, gradeText;
+    private Text scoreText, soulsText, gradeText, winScoreText;
 
     [SerializeField]
     private GameObject soulsCollected, menu, gameOverMenu, gameWinMenu;
@@ -28,6 +28,7 @@ public class ScoreSystem : MonoBehaviour
     void Start()
     {
         soulsText.text = "" + 0;
+        StartCoroutine(ExampleCoroutine());
     }
 
     void Update()
@@ -37,10 +38,6 @@ public class ScoreSystem : MonoBehaviour
             GameOver();
         }
 
-        //THIS IS THE IF STATEMENT FOR WHEN THE PLAYER WINS
-
-        //if (currentSouls)
-        
     }
 
 
@@ -48,7 +45,7 @@ public class ScoreSystem : MonoBehaviour
     {
         currentSouls++;
         soulsText.text = "" + currentSouls;
-
+        winScoreText.text = "" + currentSouls;
     }
 
 
@@ -65,7 +62,8 @@ public class ScoreSystem : MonoBehaviour
         gameWin = true;
         gameWinMenu.SetActive(true);
         soulsCollected.SetActive(false);
-        scoreText.text = "" + currentSouls;
+        winScoreText.text = "" + currentSouls;
+        Time.timeScale = 0;
 
         if (currentSouls == 48)
         {
@@ -83,5 +81,15 @@ public class ScoreSystem : MonoBehaviour
         }
     }
 
+    IEnumerator ExampleCoroutine()
+    {
+        //Print the time of when the function is first called.
+        Debug.Log("Started Coroutine at timestamp : " + Time.time);
 
+        //yield on a new YieldInstruction that waits for 5 seconds.
+        yield return new WaitForSeconds(52);
+
+        //After we have waited 5 seconds print the time again.
+        GameWin();
+    }
 }

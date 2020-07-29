@@ -15,6 +15,9 @@ public class CanvasTimer : MonoBehaviour
         AngelicoText1.SetActive(false);
         AngelicoText2.SetActive(false);
         AngelicoText3.SetActive(false);
+
+        StartCoroutine(SpeakCoroutine());
+        StartCoroutine(StopSpeakCoroutine());
     }
     void Update()
     {
@@ -32,7 +35,7 @@ public class CanvasTimer : MonoBehaviour
 
     }
         
-    IEnumerator ExampleCoroutine()
+    IEnumerator SpeakCoroutine()
     {
         //Print the time of when the function is first called.
         Debug.Log("Started Coroutine at timestamp : " + Time.time);
@@ -42,6 +45,20 @@ public class CanvasTimer : MonoBehaviour
 
         //After we have waited 5 seconds print the time again.
         AngelicoText1.SetActive(true);
-        
+
+    }
+
+
+    IEnumerator StopSpeakCoroutine()
+    {
+        //Print the time of when the function is first called.
+        Debug.Log("Started Coroutine at timestamp : " + Time.time);
+
+        //yield on a new YieldInstruction that waits for 5 seconds.
+        yield return new WaitForSeconds(30);
+
+        //After we have waited 5 seconds print the time again.
+        AngelicoText1.SetActive(false);
+
     }
 }
