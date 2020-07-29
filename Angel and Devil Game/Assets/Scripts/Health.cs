@@ -35,8 +35,8 @@ public class Health : MonoBehaviour
                 heart2.gameObject.SetActive(true);
                 heart3.gameObject.SetActive(true);
                 deadHeart1.gameObject.SetActive(false);
-                deadHeart1.gameObject.SetActive(false);
-                deadHeart1.gameObject.SetActive(false);
+                deadHeart2.gameObject.SetActive(false);
+                deadHeart3.gameObject.SetActive(false);
                 break;
 
             case 2:
@@ -44,8 +44,8 @@ public class Health : MonoBehaviour
                 heart2.gameObject.SetActive(true);
                 heart3.gameObject.SetActive(true);
                 deadHeart1.gameObject.SetActive(true);
-                deadHeart1.gameObject.SetActive(false);
-                deadHeart1.gameObject.SetActive(false);
+                deadHeart2.gameObject.SetActive(false);
+                deadHeart3.gameObject.SetActive(false);
                 break;
 
             case 1:
@@ -53,8 +53,8 @@ public class Health : MonoBehaviour
                 heart2.gameObject.SetActive(false);
                 heart3.gameObject.SetActive(true);
                 deadHeart1.gameObject.SetActive(true);
-                deadHeart1.gameObject.SetActive(true);
-                deadHeart1.gameObject.SetActive(false);
+                deadHeart2.gameObject.SetActive(true);
+                deadHeart3.gameObject.SetActive(false);
                 break;
 
             case 0:
@@ -62,8 +62,8 @@ public class Health : MonoBehaviour
                 heart2.gameObject.SetActive(false);
                 heart3.gameObject.SetActive(false);
                 deadHeart1.gameObject.SetActive(true);
-                deadHeart1.gameObject.SetActive(true);
-                deadHeart1.gameObject.SetActive(true);
+                deadHeart2.gameObject.SetActive(true);
+                deadHeart3.gameObject.SetActive(true);
                 Time.timeScale = 0;
                 break;
         }

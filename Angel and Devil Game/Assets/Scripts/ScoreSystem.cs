@@ -8,12 +8,13 @@ public class ScoreSystem : MonoBehaviour
     public static ScoreSystem instance;
 
     public bool gameOver = false;
+    public bool gameWin = false;
 
     [SerializeField]
-    private Text scoreText, soulsText;
+    private Text scoreText, soulsText, gradeText;
 
     [SerializeField]
-    private GameObject soulsCollected, menu, gameOverMenu;
+    private GameObject soulsCollected, menu, gameOverMenu, gameWinMenu;
 
     private int currentSouls;
 
@@ -29,6 +30,18 @@ public class ScoreSystem : MonoBehaviour
         soulsText.text = "" + 0;
     }
 
+    void Update()
+    {
+        if (Health.health ==0)
+        {
+            GameOver();
+        }
+
+        //THIS IS THE IF STATEMENT FOR WHEN THE PLAYER WINS
+
+        //if (currentSouls)
+    }
+
 
     public void IncreaseSouls()
     {
@@ -37,16 +50,36 @@ public class ScoreSystem : MonoBehaviour
 
     }
 
+
     public void GameOver()
     {
-        if (Health.health == 0)
+        gameOver = true;
+        gameOverMenu.SetActive(true);
+        soulsCollected.SetActive(false);
+        scoreText.text = "" + currentSouls;
+    }
+
+    public void GameWin()
+    {
+        gameWin = true;
+        gameWinMenu.SetActive(true);
+        soulsCollected.SetActive(false);
+        scoreText.text = "" + currentSouls;
+
+        if (currentSouls == 48)
         {
-            gameOver = true;
-            soulsCollected.SetActive(false);
-            gameOverMenu.SetActive(true);
-            scoreText.text = "" + currentSouls;
+            gradeText.text = "C";
         }
 
+        if (currentSouls == 49)
+        {
+            gradeText.text = "B";
+        }
+
+        if (currentSouls == 50)
+        {
+            gradeText.text = "A";
+        }
     }
 
 

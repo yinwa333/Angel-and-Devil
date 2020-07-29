@@ -1,8 +1,13 @@
 ﻿<Properties StartupConfiguration="{D5D2B45C-E711-D1A1-0660-2A9DC5CBCA64}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Health.cs">
     <Files>
-      <File FileName="Assets/Scripts/Health.cs" Line="45" Column="51" />
+      <File FileName="Assets/Scripts/Health.cs" Line="26" Column="18" />
+      <File FileName="Assets/Scripts/ScoreSystem.cs" Line="40" Column="60" />
       <File FileName="Assets/Scripts/DialogueTrigger.cs" Line="18" Column="3" />
+      <File FileName="Assets/Scripts/DialogueManager.cs" Line="20" Column="35" />
+      <File FileName="Assets/Scripts/Shatter.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlatformerController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Spawner.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
