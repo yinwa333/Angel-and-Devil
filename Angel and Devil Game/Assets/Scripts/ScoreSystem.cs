@@ -39,11 +39,13 @@ public class ScoreSystem : MonoBehaviour
 
     public void GameOver()
     {
-        gameOver = true;
-
-        soulsCollected.SetActive(false);
-        gameOverMenu.SetActive(true);
-        scoreText.text = "" + currentSouls;
+        if (Health.health == 0)
+        {
+            gameOver = true;
+            soulsCollected.SetActive(false);
+            gameOverMenu.SetActive(true);
+            scoreText.text = "" + currentSouls;
+        }
 
     }
 

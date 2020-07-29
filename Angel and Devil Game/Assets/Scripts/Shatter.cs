@@ -23,7 +23,7 @@ public class Shatter : MonoBehaviour
             //don't forget to turn off LOOP for soul effect
             #endregion
 
-            ScoreSystem.instance.IncreaseSouls();
+            //ScoreSystem.instance.IncreaseSouls();
 
             //this puts a message in the Console that the impact has hit, i took it off because idc
             //Debug.Log("Collided with Ground");
@@ -57,6 +57,8 @@ public class Shatter : MonoBehaviour
             //Debug.Log("Collided with Ground");
             //This is script that makes the object disappear when hitting the ground!
             gameObject.SetActive(false);
+
+           Health.health -= 1;
         }
     }
 }

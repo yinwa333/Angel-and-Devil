@@ -1,10 +1,8 @@
 ﻿<Properties StartupConfiguration="{D5D2B45C-E711-D1A1-0660-2A9DC5CBCA64}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Shatter.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Health.cs">
     <Files>
-      <File FileName="Assets/Scripts/Spawner.cs" Line="39" Column="14" />
-      <File FileName="Assets/Scripts/ScoreSystem.cs" Line="28" Column="6" />
-      <File FileName="Assets/Scripts/Shatter.cs" Line="36" Column="39" />
-      <File FileName="Assets/Scripts/PlatformerController.cs" Line="60" Column="1" />
+      <File FileName="Assets/Scripts/Health.cs" Line="45" Column="51" />
+      <File FileName="Assets/Scripts/DialogueTrigger.cs" Line="18" Column="3" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,7 +10,7 @@
           <Node name="Angel and Devil Game" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Shatter.cs" selected="True" />
+                <Node name="Health.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -22,7 +20,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0db621a0-8716-4642-9448-1b65ddf2d00e" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5573e036-7979-4a07-b884-d15921acf969" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
