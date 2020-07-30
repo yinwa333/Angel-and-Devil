@@ -20,4 +20,16 @@ public class sceneloader : MonoBehaviour
         Debug.Log("Quittin Game yo");
     
     }
+
+    public void ReplayDandy()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+
+    }
+
+    public void ReplayJelly()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+
+    }
 }

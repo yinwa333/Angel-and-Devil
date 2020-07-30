@@ -17,20 +17,18 @@ public class CanvasTimer : MonoBehaviour
         AngelicoText3.SetActive(false);
 
         StartCoroutine(SpeakCoroutine());
-        StartCoroutine(StopSpeakCoroutine());
     }
     void Update()
     {
         if (Health.health == 2)
         {
             AngelicoText2.SetActive(true);
-            
+
         }
 
         if (Health.health == 1)
         {
             AngelicoText3.SetActive(true);
-            
         }
 
     }
@@ -48,17 +46,4 @@ public class CanvasTimer : MonoBehaviour
 
     }
 
-
-    IEnumerator StopSpeakCoroutine()
-    {
-        //Print the time of when the function is first called.
-        Debug.Log("Started Coroutine at timestamp : " + Time.time);
-
-        //yield on a new YieldInstruction that waits for 5 seconds.
-        yield return new WaitForSeconds(30);
-
-        //After we have waited 5 seconds print the time again.
-        AngelicoText1.SetActive(false);
-
-    }
 }
