@@ -11,6 +11,8 @@ public class Health : MonoBehaviour
 
     void Start()
     {
+        Time.timeScale = 1;
+
         health = 3;
 
         heart1.gameObject.SetActive(true);
