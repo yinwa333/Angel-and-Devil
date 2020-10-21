@@ -1421,6 +1421,8 @@ GameObject:
   m_Component:
   - component: {fileID: 580941916}
   - component: {fileID: 580941918}
+  - component: {fileID: 580941919}
+  - component: {fileID: 580941917}
   m_Layer: 5
   m_Name: DandyLine1
   m_TagString: Untagged
@@ -1450,6 +1452,25 @@ RectTransform:
   m_AnchoredPosition: {x: 33, y: 0}
   m_SizeDelta: {x: 265.59186, y: 57.587387}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &580941917
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580941915}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dc778d2b4c0244507ab0449fad05e57a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!222 &580941918
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1458,6 +1479,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 580941915}
   m_CullTransparentMesh: 0
+--- !u!225 &580941919
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580941915}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1001 &607973238
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1708,6 +1741,8 @@ GameObject:
   m_Component:
   - component: {fileID: 674387961}
   - component: {fileID: 674387962}
+  - component: {fileID: 674387964}
+  - component: {fileID: 674387963}
   m_Layer: 5
   m_Name: DandyLine3
   m_TagString: Untagged
@@ -1745,6 +1780,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 674387960}
   m_CullTransparentMesh: 0
+--- !u!95 &674387963
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674387960}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dc778d2b4c0244507ab0449fad05e57a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!225 &674387964
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674387960}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &698770175
 GameObject:
   m_ObjectHideFlags: 0
@@ -4125,6 +4191,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1989236702}
   - component: {fileID: 1989236703}
+  - component: {fileID: 1989236705}
+  - component: {fileID: 1989236704}
   m_Layer: 5
   m_Name: DandyLine2
   m_TagString: Untagged
@@ -4162,6 +4230,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1989236701}
   m_CullTransparentMesh: 0
+--- !u!95 &1989236704
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989236701}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dc778d2b4c0244507ab0449fad05e57a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!225 &1989236705
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989236701}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &2004555346
 GameObject:
   m_ObjectHideFlags: 0
@@ -4275,7 +4374,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -317.83, y: 183.02}
-  m_SizeDelta: {x: 128.02264, y: 67.705475}
+  m_SizeDelta: {x: 128.02264, y: 79.95999}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2013579515
 MonoBehaviour:
