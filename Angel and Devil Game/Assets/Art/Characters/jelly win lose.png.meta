@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8a7d86923714e4f42b0270822a63bc03
+guid: 300e56865317246429de99a979531bcd
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -108,10 +108,10 @@ TextureImporter:
       name: jelly win lose_0
       rect:
         serializedVersion: 2
-        x: 23
+        x: 20
         y: 22
-        width: 1089
-        height: 1295
+        width: 1087
+        height: 1296
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -129,10 +129,10 @@ TextureImporter:
       name: jelly win lose_1
       rect:
         serializedVersion: 2
-        x: 1228
-        y: 39
-        width: 698
-        height: 1191
+        x: 1212
+        y: 41
+        width: 714
+        height: 1187
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
