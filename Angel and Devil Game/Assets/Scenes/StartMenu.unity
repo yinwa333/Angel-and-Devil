@@ -2287,7 +2287,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 1734405158}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -2419,7 +2419,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: VOLUME
+  m_Text: MUSIC VOLUME
 --- !u!222 &1743623291
 CanvasRenderer:
   m_ObjectHideFlags: 0
