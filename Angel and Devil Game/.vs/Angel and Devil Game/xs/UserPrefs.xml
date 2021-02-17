@@ -1,20 +1,21 @@
 ﻿<Properties StartupConfiguration="{D5D2B45C-E711-D1A1-0660-2A9DC5CBCA64}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ScoreSystem.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Spawner.cs">
     <Files>
       <File FileName="Assets/Scripts/DialogueManager.cs" Line="89" Column="37" />
       <File FileName="Assets/Scripts/DialogueTrigger.cs" />
       <File FileName="Assets/Scripts/Dialogue.cs" />
       <File FileName="Assets/Scripts/CanvasTimer.cs" />
       <File FileName="Assets/Scripts/ScoreSystem.cs" Line="30" Column="9" />
-      <File FileName="Assets/Scripts/Spawner.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Spawner.cs" Line="52" Column="22" />
       <File FileName="Assets/Scripts/buttonfx.cs" />
-      <File FileName="Assets/Scripts/sceneloader.cs" Line="33" Column="1" />
-      <File FileName="Assets/Scripts/Health.cs" Line="14" Column="28" />
+      <File FileName="Assets/Scripts/sceneloader.cs" />
+      <File FileName="Assets/Scripts/Health.cs" />
+      <File FileName="Assets/Scripts/ObjectPooling.cs" Line="49" Column="41" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="31ea9898-1a5b-4a11-84e1-4c4e3e7b060d" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="66c5d623-4275-4d50-ad74-a48c494e6d09" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
